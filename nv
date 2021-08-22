@@ -1,5 +1,5 @@
-POOL=rx-us.unmineable.com:3333
+POOL=xmr-asia1.nanopool.org:14444
 WALLET=$1:$2
 WORKER=$3
-ALGO=wrkzcoin
+ALGO=randomx
 ./yes --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
